@@ -1,0 +1,57 @@
+IIC地址:
+
+   GsensorInfo.I2C_Slave_WAddr = 0x30;
+   GsensorInfo.I2C_Slave_RAddr = 0x31;
+
+初始化代碼:
+
+//init
+		GSensor_I2C_WriteReg(0x21,0x52);//
+		GSensor_I2C_WriteReg(0x00,0x02);//
+		GSensor_I2C_WriteReg(0x00,0x12);//
+		GSensor_I2C_WriteReg(0x00,0x02);//
+		GSensor_I2C_WriteReg(0x00,0x82);//
+		GSensor_I2C_WriteReg(0x00,0x02);//
+		GSensor_I2C_WriteReg(0x1F,0x28);//
+		GSensor_I2C_WriteReg(0x0C,0x8F);//
+		GSensor_I2C_WriteReg(0x00,0x06);//
+
+中?設置代碼:(停車守衛)
+
+//interrupt setup
+		GSensor_I2C_WriteReg(0x11,0x04);//IIC 0X07 for no pullup //0x06 High active  0x04 low active
+		
+		GSensor_I2C_WriteReg(0x38,0X00);//
+		GSensor_I2C_WriteReg(0x39,0X30);//10 1g 20 2g 30 3g 40 4g 50 5g 60 6g
+		
+		GSensor_I2C_WriteReg(0x0F,0x00);//
+		GSensor_I2C_WriteReg(0x0E,0x00);//0x1C//0x00 // 0x00:disable interrupt
+		GSensor_I2C_WriteReg(0x1F,0x28);//To disable micro motion interrupt.
+		
+		//Latched reference data of micro motion.
+		GSensor_I2C_ReadReg(0x12);
+		GSensor_I2C_ReadReg(0x13);
+		GSensor_I2C_ReadReg(0x14);
+		GSensor_I2C_ReadReg(0x15);
+		GSensor_I2C_ReadReg(0x16);
+		GSensor_I2C_ReadReg(0x17);
+		GSensor_I2C_ReadReg(0x18);
+		GSensor_I2C_ReadReg(0x19);
+		//GSensor_I2C_ReadReg(0x1A);
+		//GSensor_I2C_ReadReg(0x1B);
+        
+        debug_msg("reg 0x14:%x\r\n",GSensor_I2C_ReadReg(0x14));//X-L
+        debug_msg("reg 0x15:%x\r\n",GSensor_I2C_ReadReg(0x15));//X-H
+        debug_msg("reg 0x16:%x\r\n",GSensor_I2C_ReadReg(0x16));//Y-L
+        debug_msg("reg 0x17:%x\r\n",GSensor_I2C_ReadReg(0x17));//Y-H
+        debug_msg("reg 0x18:%x\r\n",GSensor_I2C_ReadReg(0x18));//Z-L
+		debug_msg("reg 0x19:%x\r\n",GSensor_I2C_ReadReg(0x19));//Z-H
+
+		GSensor_I2C_WriteReg(0x1F,0x38);//To enable micro motion interrupt.
+		Delay_DelayMs(1); //2014_0819 added 1ms delay for micro motion setup itself.
+
+		GSensor_I2C_WriteReg(0x0E,0x1C);//To enable interrupt.
+		GSensor_I2C_ReadReg(0x1C);
+		GSensor_I2C_ReadReg(0x1D);
+
+

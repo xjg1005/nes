@@ -1,0 +1,23 @@
+#ifndef __UI_COM_H__
+#define __UI_COM_H__
+
+//控件类型
+enum
+{
+	//以下顺序不可修改
+	TYPE_PIC,
+	TYPE_TEXT,
+	TYPE_TIME,
+	TYPE_MENU,
+	TYPE_NUMBER,
+	TYPE_SLIDER,
+	TYPE_PROGRESS,
+	TYPE_RADIO,
+	TYPE_CHECKBOX,
+	TYPE_BUTTON,
+	TYPE_REGION,	
+	TYPE_LAYER,
+};
+
+
+#endif

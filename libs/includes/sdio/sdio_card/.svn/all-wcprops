@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/dv12/!svn/ver/69/trunk/libs/includes/sdio/sdio_card
+END
+card.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dv12/!svn/ver/69/trunk/libs/includes/sdio/sdio_card/card.h
+END
+sdio_func.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/dv12/!svn/ver/69/trunk/libs/includes/sdio/sdio_card/sdio_func.h
+END
+mmc.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/dv12/!svn/ver/69/trunk/libs/includes/sdio/sdio_card/mmc.h
+END
+sdio.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dv12/!svn/ver/69/trunk/libs/includes/sdio/sdio_card/sdio.h
+END
+sd.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/dv12/!svn/ver/69/trunk/libs/includes/sdio/sdio_card/sd.h
+END
+sdio_err.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dv12/!svn/ver/69/trunk/libs/includes/sdio/sdio_card/sdio_err.h
+END

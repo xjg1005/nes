@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="sensor" />
+		<Option pch_mode="2" />
+		<Option compiler="dv10" />
+		<Build>
+			<Target title="Debug">
+				<Option output="..\..\lib_sensor" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Debug\" />
+				<Option type="2" />
+				<Option compiler="dv10" />
+				<Option autodetectfilechange="0" />
+				<Option generateeachlit="0" />
+				<Option useflatobjects="0" />
+				<Option usefullsourcepaths="0" />
+				<Compiler>
+					<Add option="-Os" />
+					<Add option="-fno-delete-null-pointer-checks" />
+					<Add directory="..\include" />
+					<Add directory="..\..\includes" />
+					<Add directory="C:\JL\bfin\include" />
+					<Add directory="..\..\rtos_lib\inc" />
+					<Add directory="..\src\camera" />
+					<Add directory="..\src\isp_dev" />
+					<Add directory="..\src" />
+					<Add directory="..\..\includes\drv" />
+					<Add directory="..\..\isp\src\isp_dev" />
+					<Add directory="..\..\includes\os\inc" />
+				</Compiler>
+				<Linker>
+					<Add library="C:\JL\bfin\lib\libgcc.a" />
+					<Add library="C:\JL\bfin\lib\libg.a" />
+					<Add directory="C:\JL\bfin\lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\mp3decode" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="dv10" />
+				<Option autodetectfilechange="0" />
+				<Option generateeachlit="0" />
+				<Option useflatobjects="0" />
+				<Option usefullsourcepaths="0" />
+				<Compiler>
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-Os" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory=".\" />
+		</Compiler>
+		<Unit filename="..\..\includes\iic.h" />
+		<Unit filename="..\src\camera\ARK7116.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\camera\ARK7116.h" />
+		<Unit filename="..\src\camera\GC0308.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\camera\GC0308.h" />
+		<Unit filename="..\src\camera\GC1004.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\camera\GC1004.h" />
+		<Unit filename="..\src\camera\GC1004_tbl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\camera\H42.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\camera\H42.h" />
+		<Unit filename="..\src\camera\H42_tbl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\camera\NT99140.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\camera\NT99140.h" />
+		<Unit filename="..\src\camera\NT99143.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\camera\NT99143.h" />
+		<Unit filename="..\src\camera\NT99143_tbl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\camera\OV9710.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\camera\OV9710.h" />
+		<Unit filename="..\src\camera\OV9712.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\camera\OV9712.h" />
+		<Unit filename="..\src\camera\SC1045.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\camera\SC1045.h" />
+		<Unit filename="..\src\camera\SC1045_tbl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\camera\gm7150.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\camera\gm7150.h" />
+		<Unit filename="..\src\camera\ov9650.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\camera\ov9650.h" />
+		<Unit filename="..\src\camera\ps4100.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\camera\ps4100.h" />
+		<Unit filename="..\src\camera\ps4100_tbl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\camera\saa7113.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\camera\saa7113.h" />
+		<Unit filename="..\src\iic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\iic_api.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\iic_io.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\src\iic_io.h" />
+		<Unit filename="..\src\isp_dev\isp_sensor_manage.h" />
+		<Unit filename="..\src\isp_sensor_manage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger>
+				<remote_debugging>
+					<options conn_type="0" serial_baud="115200" ip_address="127.0.0.1" ip_port="9999" />
+				</remote_debugging>
+			</debugger>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="..\..\includes\iic.h" open="1" top="0" tabpos="12">
+		<Cursor position="1455" topLine="23" />
+	</File>
+	<File name="..\src\camera\ARK7116.c" open="1" top="0" tabpos="10">
+		<Cursor position="21141" topLine="940" />
+	</File>
+	<File name="..\src\camera\GC0308.c" open="0" top="0" tabpos="10">
+		<Cursor position="2694" topLine="131" />
+	</File>
+	<File name="..\src\camera\GC1004.c" open="1" top="0" tabpos="3">
+		<Cursor position="8619" topLine="371" />
+	</File>
+	<File name="..\src\camera\GC1004.h" open="0" top="0" tabpos="3">
+		<Cursor position="2404" topLine="92" />
+	</File>
+	<File name="..\src\camera\GC1004_tbl.c" open="0" top="0" tabpos="6">
+		<Cursor position="19306" topLine="558" />
+	</File>
+	<File name="..\src\camera\H42.c" open="0" top="0" tabpos="2">
+		<Cursor position="2258" topLine="97" />
+	</File>
+	<File name="..\src\camera\H42.h" open="0" top="0" tabpos="3">
+		<Cursor position="1223" topLine="8" />
+	</File>
+	<File name="..\src\camera\H42_tbl.c" open="0" top="0" tabpos="0">
+		<Cursor position="4996" topLine="121" />
+	</File>
+	<File name="..\src\camera\NT99140.c" open="1" top="0" tabpos="2">
+		<Cursor position="7156" topLine="403" />
+	</File>
+	<File name="..\src\camera\NT99140.h" open="0" top="0" tabpos="9">
+		<Cursor position="363" topLine="0" />
+	</File>
+	<File name="..\src\camera\NT99143.c" open="0" top="0" tabpos="8">
+		<Cursor position="4333" topLine="222" />
+	</File>
+	<File name="..\src\camera\NT99143.h" open="0" top="0" tabpos="7">
+		<Cursor position="1486" topLine="8" />
+	</File>
+	<File name="..\src\camera\NT99143_tbl.c" open="0" top="0" tabpos="0">
+		<Cursor position="816" topLine="0" />
+	</File>
+	<File name="..\src\camera\OV9710.c" open="0" top="0" tabpos="1">
+		<Cursor position="10339" topLine="513" />
+	</File>
+	<File name="..\src\camera\OV9710.h" open="0" top="0" tabpos="0">
+		<Cursor position="383" topLine="0" />
+	</File>
+	<File name="..\src\camera\SC1045.c" open="1" top="0" tabpos="1">
+		<Cursor position="7286" topLine="340" />
+	</File>
+	<File name="..\src\camera\SC1045.h" open="1" top="0" tabpos="13">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="..\src\camera\SC1045_tbl.c" open="1" top="0" tabpos="7">
+		<Cursor position="781" topLine="0" />
+	</File>
+	<File name="..\src\camera\gm7150.c" open="0" top="0" tabpos="3">
+		<Cursor position="2851" topLine="142" />
+	</File>
+	<File name="..\src\camera\ov9650.c" open="1" top="0" tabpos="8">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="..\src\iic.c" open="1" top="1" tabpos="4">
+		<Cursor position="754" topLine="21" />
+	</File>
+	<File name="..\src\iic_api.c" open="1" top="0" tabpos="11">
+		<Cursor position="190" topLine="30" />
+	</File>
+	<File name="..\src\iic_io.c" open="1" top="0" tabpos="6">
+		<Cursor position="1251" topLine="84" />
+	</File>
+	<File name="..\src\iic_io.h" open="1" top="0" tabpos="9">
+		<Cursor position="1674" topLine="22" />
+	</File>
+	<File name="..\src\isp_sensor_manage.c" open="1" top="0" tabpos="5">
+		<Cursor position="11499" topLine="324" />
+	</File>
+</CodeBlocks_layout_file>

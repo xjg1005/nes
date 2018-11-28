@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/dv12/!svn/ver/1042/trunk/libs/includes/json_c
+END
+json_object_private.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/dv12/!svn/ver/1042/trunk/libs/includes/json_c/json_object_private.h
+END
+printbuf.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/dv12/!svn/ver/1042/trunk/libs/includes/json_c/printbuf.h
+END
+math_compat.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dv12/!svn/ver/1042/trunk/libs/includes/json_c/math_compat.h
+END
+json_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dv12/!svn/ver/1042/trunk/libs/includes/json_c/json_config.h
+END
+json_object.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dv12/!svn/ver/1042/trunk/libs/includes/json_c/json_object.h
+END
+json_tokener.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/dv12/!svn/ver/1042/trunk/libs/includes/json_c/json_tokener.h
+END
+json_c_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dv12/!svn/ver/1042/trunk/libs/includes/json_c/json_c_config.h
+END
+linkhash.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/dv12/!svn/ver/1042/trunk/libs/includes/json_c/linkhash.h
+END
+bits.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/dv12/!svn/ver/1042/trunk/libs/includes/json_c/bits.h
+END
+json_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/dv12/!svn/ver/1042/trunk/libs/includes/json_c/json_util.h
+END
+json_object_iterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dv12/!svn/ver/1042/trunk/libs/includes/json_c/json_object_iterator.h
+END
+json_inttypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/dv12/!svn/ver/1042/trunk/libs/includes/json_c/json_inttypes.h
+END
+json.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/dv12/!svn/ver/1042/trunk/libs/includes/json_c/json.h
+END
+arraylist.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/dv12/!svn/ver/1042/trunk/libs/includes/json_c/arraylist.h
+END
+config_j.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/dv12/!svn/ver/1042/trunk/libs/includes/json_c/config_j.h
+END
+json_debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dv12/!svn/ver/1042/trunk/libs/includes/json_c/json_debug.h
+END
+json_c_version.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dv12/!svn/ver/1042/trunk/libs/includes/json_c/json_c_version.h
+END
+random_seed.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/dv12/!svn/ver/1042/trunk/libs/includes/json_c/random_seed.h
+END
+debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/dv12/!svn/ver/1042/trunk/libs/includes/json_c/debug.h
+END

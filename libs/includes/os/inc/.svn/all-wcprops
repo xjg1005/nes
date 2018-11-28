@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/dv12/!svn/ver/212/trunk/libs/includes/os/inc
+END
+os_api.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/dv12/!svn/ver/204/trunk/libs/includes/os/inc/os_api.h
+END
+ucos_ii.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/dv12/!svn/ver/204/trunk/libs/includes/os/inc/ucos_ii.h
+END
+cpu_lib.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/dv12/!svn/ver/212/trunk/libs/includes/os/inc/cpu_lib.h
+END
+msg_pool.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/dv12/!svn/ver/3/trunk/libs/includes/os/inc/msg_pool.h
+END
+os_cfg.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/dv12/!svn/ver/204/trunk/libs/includes/os/inc/os_cfg.h
+END
+cpu.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/dv12/!svn/ver/212/trunk/libs/includes/os/inc/cpu.h
+END
+os_cpu.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/dv12/!svn/ver/204/trunk/libs/includes/os/inc/os_cpu.h
+END

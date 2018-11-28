@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/dv12/!svn/ver/162/trunk/libs/includes/sdio/sdio_host
+END
+sdio_host.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/dv12/!svn/ver/162/trunk/libs/includes/sdio/sdio_host/sdio_host.h
+END
+sdio_host_init.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dv12/!svn/ver/69/trunk/libs/includes/sdio/sdio_host/sdio_host_init.h
+END

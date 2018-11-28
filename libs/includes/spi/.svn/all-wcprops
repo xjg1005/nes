@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/dv12/!svn/ver/65/trunk/libs/includes/spi
+END
+mango_dev_spi.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/dv12/!svn/ver/9/trunk/libs/includes/spi/mango_dev_spi.h
+END
+mango_dev_spi0flash.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/dv12/!svn/ver/65/trunk/libs/includes/spi/mango_dev_spi0flash.h
+END

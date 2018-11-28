@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/dv12/!svn/ver/1085/trunk/libs/includes/usb
+END
+usb_slave_api.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/dv12/!svn/ver/1085/trunk/libs/includes/usb/usb_slave_api.h
+END
+usb_host_api.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/dv12/!svn/ver/9/trunk/libs/includes/usb/usb_host_api.h
+END
+usb_inc.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/dv12/!svn/ver/426/trunk/libs/includes/usb/usb_inc.h
+END

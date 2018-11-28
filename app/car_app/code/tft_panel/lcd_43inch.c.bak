@@ -1,0 +1,58 @@
+#include "imb_module.h"
+
+const L0_PARA_CFG lcd_43inch_para =
+{
+    576,
+    88,
+    43,
+    480,
+
+    292,
+    20,
+    12,
+    0,
+    272,
+};
+
+
+DISP_DEV_CFG disp_dev;
+void lcdpanel_43_inch_init()
+{
+	CGAIN gain;
+	disp_dev.drive_mode = MODE_RGB_SYNC;
+    disp_dev.data_width = PORT_24BITS;
+    disp_dev.out_format = FORMAT_RGB888;
+    disp_dev.para = (L0_PARA_CFG *)&lcd_43inch_para;
+    disp_dev.hook = NULL;
+    disp_dev.interface_mode = FALSE;
+
+    disp_dev.bkcolor = 0xE20095;
+    gain.y_offs = (u32)0x1000-20;
+
+    gain.y_gain = 0x100;
+    gain.u_gain = 0x100;
+    gain.v_gain = 0x100;
+    gain.r_gain = 0x100;
+    gain.g_gain = 0x100;
+    gain.b_gain = 0x100;
+
+    disp_dev.gain = &gain;
+    disp_dev.isr_prior = 3;
+
+	IMB_CON2 |= BIT(11)|BIT(10);//div4 60MHz/4=15MHz
+    imb_init(&disp_dev);
+	/*
+    IMGLAYER *image= imb_get_image_hdl(LAYER_IMAGE0);
+	image->enable = TRUE;
+    image->alpha = 32;
+    image->x = 0;
+    image->y = 0;
+    image->width = 480;
+    image->height = 272; //
+	image->buf = 0x02800000;
+	image->buf_num = 2;
+	image->mask_en = FALSE;
+	image->dsc_ram = NULL;
+	imb_image_cfg(image);
+	*/
+}

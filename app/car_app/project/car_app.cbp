@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="car_app" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="main" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="dv12" />
+				<Option use_console_runner="0" />
+				<Option autodetectfilechange="1" />
+				<Option generateeachlit="0" />
+				<Option useflatobjects="0" />
+				<Option usefullsourcepaths="0" />
+				<Compiler>
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-g" />
+					<Add option="-Os" />
+					<Add option="-msdram" />
+					<Add option="-mlong-calls" />
+					<Add option="-fno-delete-null-pointer-checks" />
+					<Add option="-DUSE_RTOS" />
+					<Add directory="C:\JL\dv12\include" />
+					<Add directory="..\..\..\libs\includes" />
+					<Add directory="..\..\..\libs\includes\os\inc" />
+					<Add directory="..\..\..\libs\includes\drv" />
+					<Add directory="..\..\..\libs\includes\sd" />
+					<Add directory="..\..\..\libs\includes\spi" />
+					<Add directory="..\..\..\libs\includes\uart" />
+					<Add directory="..\code\isp" />
+					<Add directory="..\..\..\libs\includes\fs" />
+					<Add directory="..\code\start" />
+					<Add directory="..\code\FileSelecter" />
+					<Add directory="..\code\include" />
+					<Add directory="..\code\StorDev" />
+					<Add directory="..\code\common" />
+					<Add directory="..\code\disp_ctrl" />
+					<Add directory="..\code\tft_panel" />
+					<Add directory="..\code\key" />
+					<Add directory="..\..\..\libs\includes\usb" />
+					<Add directory="..\code\Peripherals\G_Sensor" />
+					<Add directory="..\code\low_power" />
+					<Add directory="..\code\upgrade" />
+					<Add directory="..\code\infoNES\infoNES_PORT" />
+					<Add directory="..\code\infoNES\infoNES_SRC\inc" />
+					<Add directory="..\code\infoNES\infoNES_System" />
+					<Add directory="..\code\infoNES\NES_GAME" />
+				</Compiler>
+				<Linker>
+					<Add option="-Map=map.txt" />
+					<Add option="-Tram.ld" />
+					<Add library="..\..\..\libs\lib_vds.a" />
+					<Add library="..\..\..\libs\lib_ves.a" />
+					<Add library="..\..\..\libs\lib_jpeg_dec.a" />
+					<Add library="..\..\..\libs\lib_jpeg_enc.a" />
+					<Add library="..\..\..\libs\lib_avi_unpkg.a" />
+					<Add library="..\..\..\libs\lib_avi_pkg.a" />
+					<Add library="..\..\..\libs\lib_malloc.a" />
+					<Add library="..\..\..\libs\libsd1.a" />
+					<Add library="..\..\..\libs\lib_imc_disp.a" />
+					<Add library="..\..\..\libs\lib_imb.a" />
+					<Add library="..\..\..\libs\lib_imc.a" />
+					<Add library="..\..\..\libs\lib_vm.a" />
+					<Add library="..\..\..\libs\lib_font.a" />
+					<Add library="..\..\..\libs\lib_uicon.a" />
+					<Add library="..\..\..\libs\lib_drv_lib.a" />
+					<Add library="..\..\..\libs\lib_dsc_ram.a" />
+					<Add library="..\..\..\libs\lib_vedio_ram.a" />
+					<Add library="..\..\..\libs\lib_sdfile.a" />
+					<Add library="..\..\..\libs\lib_vfs.a" />
+					<Add library="..\..\..\libs\libhwi.a" />
+					<Add library="..\..\..\libs\libspi0flash.a" />
+					<Add library="..\..\..\libs\libspi0.a" />
+					<Add library="..\..\..\libs\lib_wfile_serve.a" />
+					<Add library="..\..\..\libs\lib_audio.a" />
+					<Add library="..\..\..\libs\lib_usb_slave.a" />
+					<Add library="..\..\..\libs\lib_usb_host.a" />
+					<Add library="..\..\..\libs\lib_usb_phy.a" />
+					<Add library="..\..\..\libs\lib_isp.a" />
+					<Add library="..\..\..\libs\lib_cbuf.a" />
+					<Add library="..\..\..\libs\lib_lane.a" />
+					<Add library="..\..\..\libs\librtos.a" />
+					<Add library="..\..\..\libs\lib_irtc.a" />
+					<Add library="..\..\..\libs\lib_fbuf.a" />
+					<Add library="..\..\..\libs\lib_sensor.a" />
+					<Add library="..\..\..\libs\lib_common.a" />
+					<Add library="..\..\..\libs\lib_video_play.a" />
+					<Add directory="\lib" />
+					<Add directory="C:\JL\dv10\lib" />
+					<Add directory="C:\JL\dv12\lib" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="r_makebin.bat" />
+					<Mode after="always" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\dv10_example" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option autodetectfilechange="0" />
+				<Option generateeachlit="0" />
+				<Option useflatobjects="0" />
+				<Option usefullsourcepaths="0" />
+				<Compiler>
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-Os" />
+					<Add option="-g" />
+					<Add directory="code\Peripherals" />
+					<Add directory="code\start" />
+					<Add directory="code\common" />
+					<Add directory="C:\JL\dv10\include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lc" />
+					<Add option="-lgcc" />
+					<Add directory="C:\JL\dv10\lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory=".\" />
+		</Compiler>
+		<Unit filename="..\code\FileSelecter\FileSelecter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\FileSelecter\FileSelecter.h" />
+		<Unit filename="..\code\FileSelecter\pb_fctrl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\Peripherals\G_Sensor\GMA301.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\Peripherals\G_Sensor\GMA301.h" />
+		<Unit filename="..\code\Peripherals\G_Sensor\da380.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\Peripherals\G_Sensor\da380.h" />
+		<Unit filename="..\code\Peripherals\G_Sensor\gravity_sensor_api.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\Peripherals\G_Sensor\gravity_sensor_api.h" />
+		<Unit filename="..\code\Peripherals\G_Sensor\gravity_sensor_manage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\Peripherals\G_Sensor\gravity_sensor_manage.h" />
+		<Unit filename="..\code\Peripherals\G_Sensor\i2c.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\Peripherals\G_Sensor\i2c.h" />
+		<Unit filename="..\code\Peripherals\G_Sensor\parking_guard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\Peripherals\G_Sensor\parking_guard.h" />
+		<Unit filename="..\code\Peripherals\G_Sensor\stk8312.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\Peripherals\G_Sensor\stk8312.h" />
+		<Unit filename="..\code\Peripherals\clock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\Peripherals\timer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\Peripherals\uart.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\Peripherals\user_isp_cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\Peripherals\wdt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\StorDev\dev_ctrl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\StorDev\dev_ctrl.h" />
+		<Unit filename="..\code\common\audio_api.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\common\audio_api.h" />
+		<Unit filename="..\code\common\common.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\common\fcvt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\common\fcvt.h" />
+		<Unit filename="..\code\common\printf-stdarg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\common\printf.h" />
+		<Unit filename="..\code\common\vm_api.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\common\vm_api.h" />
+		<Unit filename="..\code\disp_ctrl\UI.H" />
+		<Unit filename="..\code\disp_ctrl\lcd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\disp_ctrl\lcd.h" />
+		<Unit filename="..\code\disp_ctrl\menu.h" />
+		<Unit filename="..\code\disp_ctrl\my_msg.h" />
+		<Unit filename="..\code\disp_ctrl\my_ui.h" />
+		<Unit filename="..\code\disp_ctrl\my_ui1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\disp_ctrl\ui_task.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\disp_ctrl\ui_task.h" />
+		<Unit filename="..\code\include\app_cfg.h" />
+		<Unit filename="..\code\infoNES\NES_GAME\Contra.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\infoNES\NES_GAME\ddl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\infoNES\infoNES_PORT\nes_port.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\infoNES\infoNES_PORT\nes_port.h" />
+		<Unit filename="..\code\infoNES\infoNES_SRC\inc\InfoNES.h" />
+		<Unit filename="..\code\infoNES\infoNES_SRC\inc\InfoNES_Mapper.h" />
+		<Unit filename="..\code\infoNES\infoNES_SRC\inc\InfoNES_System.h" />
+		<Unit filename="..\code\infoNES\infoNES_SRC\inc\InfoNES_Types.h" />
+		<Unit filename="..\code\infoNES\infoNES_SRC\inc\InfoNES_pAPU.h" />
+		<Unit filename="..\code\infoNES\infoNES_SRC\inc\K6502.h" />
+		<Unit filename="..\code\infoNES\infoNES_SRC\inc\K6502_rw.h" />
+		<Unit filename="..\code\infoNES\infoNES_SRC\src\InfoNES.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\infoNES\infoNES_SRC\src\InfoNES_Mapper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\infoNES\infoNES_SRC\src\InfoNES_pAPU.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\infoNES\infoNES_SRC\src\K6502.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\infoNES\infoNES_System\InfoNES_System.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\infoNES\infoNES_System\InfoNES_System.h" />
+		<Unit filename="..\code\isp\isp.h" />
+		<Unit filename="..\code\jpg_ctl\jpg_ctrl.h" />
+		<Unit filename="..\code\key\adc_scan.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\key\adc_scan.h" />
+		<Unit filename="..\code\key\key_drv_ad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\key\key_drv_ad.h" />
+		<Unit filename="..\code\key\key_drv_manager.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\key\key_drv_manager.h" />
+		<Unit filename="..\code\key\powercheck.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\key\powercheck.h" />
+		<Unit filename="..\code\low_power\lowpower.h" />
+		<Unit filename="..\code\low_power\lowpower_mode.h" />
+		<Unit filename="..\code\start\car_fs_api.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\start\car_fs_api.h" />
+		<Unit filename="..\code\start\dec_mode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\start\dec_mode.h" />
+		<Unit filename="..\code\start\enc_mode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\start\enc_mode.h" />
+		<Unit filename="..\code\start\main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\start\mode_switch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\start\mode_switch.h" />
+		<Unit filename="..\code\start\pwr_onoff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\start\pwr_onoff.h" />
+		<Unit filename="..\code\start\reg.S">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\start\startup.S">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\start\usb_mode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\start\usb_mode.h" />
+		<Unit filename="..\code\tft_panel\ILI8960.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\tft_panel\ILI8960.h" />
+		<Unit filename="..\code\tft_panel\ILI8961.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\tft_panel\ILI9163.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\tft_panel\ILI9325.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\tft_panel\LCD_RM68116.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\tft_panel\LQ026B3UX01.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\tft_panel\SSD1963.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\tft_panel\ST7735S.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\tft_panel\T15P00.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\tft_panel\avout.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\tft_panel\disp_43inch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\tft_panel\disp_8inch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\tft_panel\disp_JC4301.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\tft_panel\lcd_43inch.c.bak" />
+		<Unit filename="..\code\tft_panel\pap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\tft_panel\pap.h" />
+		<Unit filename="..\code\tft_panel\tft.h" />
+		<Unit filename="..\code\upgrade\upgrade.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\upgrade\upgrade.h" />
+		<Unit filename="isd_tools.cfg" />
+		<Unit filename="map.txt" />
+		<Unit filename="r_makebin.bat" />
+		<Unit filename="ram.ld" />
+		<Unit filename="..\..\..\libs\includes\uart.h" />
+		<Unit filename="..\..\..\libs\includes\video_play.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger>
+				<remote_debugging>
+					<options conn_type="0" serial_baud="115200" ip_address="127.0.0.1" ip_port="9999" />
+				</remote_debugging>
+			</debugger>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

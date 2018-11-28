@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/dv12/!svn/ver/204/trunk/libs/includes/fs
+END
+fat_Mount.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/dv12/!svn/ver/35/trunk/libs/includes/fs/fat_Mount.h
+END
+targ.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/dv12/!svn/ver/35/trunk/libs/includes/fs/targ.h
+END
+ASCII_lib.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/dv12/!svn/ver/35/trunk/libs/includes/fs/ASCII_lib.h
+END
+tff.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/dv12/!svn/ver/35/trunk/libs/includes/fs/tff.h
+END
+dev_Mount.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/dv12/!svn/ver/35/trunk/libs/includes/fs/dev_Mount.h
+END
+fs_err.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/dv12/!svn/ver/35/trunk/libs/includes/fs/fs_err.h
+END
+dev_Cache.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/dv12/!svn/ver/204/trunk/libs/includes/fs/dev_Cache.h
+END
+fat_Table.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/dv12/!svn/ver/35/trunk/libs/includes/fs/fat_Table.h
+END
+fs_Api.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/dv12/!svn/ver/35/trunk/libs/includes/fs/fs_Api.h
+END
+ff_api.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/dv12/!svn/ver/35/trunk/libs/includes/fs/ff_api.h
+END
+fat_Dir.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/dv12/!svn/ver/35/trunk/libs/includes/fs/fat_Dir.h
+END
+fat_sys.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/dv12/!svn/ver/35/trunk/libs/includes/fs/fat_sys.h
+END

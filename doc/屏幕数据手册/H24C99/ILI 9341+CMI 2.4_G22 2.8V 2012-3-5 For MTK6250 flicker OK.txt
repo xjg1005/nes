@@ -1,0 +1,166 @@
+void ILI9341_CMI 2.4_Initial(void) 
+{ 
+// VCI=2.8V 
+//************* Reset LCD Driver ****************// 
+LCD_nRESET = 1; 
+delayms(1);       // Delay 1ms 
+LCD_nRESET = 0; 
+delayms(10);       // Delay 10ms // This delay time is necessary 
+LCD_nRESET = 1; 
+delayms(120);       // Delay 120 ms 
+ 
+//************* Start Initial Sequence **********// 
+LCD_ILI9341_CMD(0xCF);  
+LCD_ILI9341_ Parameter (0x00); 
+LCD_ILI9341_ Parameter (0xC1); //(0xD9); 展讯会竖线
+LCD_ILI9341_ Parameter (0X30); 
+ 
+LCD_ILI9341_CMD(0xED);  
+LCD_ILI9341_ Parameter (0x64); 
+LCD_ILI9341_ Parameter (0x03); 
+LCD_ILI9341_ Parameter (0X12); 
+LCD_ILI9341_ Parameter (0X81); 
+ 
+LCD_ILI9341_CMD(0xE8);  
+LCD_ILI9341_ Parameter (0x85); 
+LCD_ILI9341_ Parameter (0x00); 
+LCD_ILI9341_ Parameter (0x78); 
+ 
+LCD_ILI9341_CMD(0xCB);  
+LCD_ILI9341_ Parameter (0x39); 
+LCD_ILI9341_ Parameter (0x2C); 
+LCD_ILI9341_ Parameter (0x00); 
+LCD_ILI9341_ Parameter (0x34); 
+LCD_ILI9341_ Parameter (0x02); 
+ 
+LCD_ILI9341_CMD(0xF7);  
+LCD_ILI9341_ Parameter (0x20); 
+ 
+LCD_ILI9341_CMD(0xEA);  
+LCD_ILI9341_ Parameter (0x00); 
+LCD_ILI9341_ Parameter (0x00); 
+ 
+LCD_ILI9341_CMD(0xC0);    //Power control 
+LCD_ILI9341_ Parameter (0x1B);   //VRH[5:0] 
+ 
+LCD_ILI9341_CMD(0xC1);    //Power control 
+LCD_ILI9341_ Parameter (0x12);   //SAP[2:0];BT[3:0] 
+ 
+LCD_ILI9341_CMD(0xC5);    //VCM control 
+LCD_ILI9341_ Parameter (0x30); //0x32
+LCD_ILI9341_ Parameter (0x3C); 
+ 
+LCD_ILI9341_CMD(0xC7);    //VCM control2 
+LCD_ILI9341_ Parameter (0X95); //(0X9D); 
+ 
+LCD_ILI9341_CMD(0x36);    // Memory Access Control 
+LCD_ILI9341_ Parameter (0x08); 
+ 
+LCD_ILI9341_CMD(0x3A);   
+LCD_ILI9341_ Parameter (0x55); 
+
+LCD_ILI9341_CMD(0xB1);   
+LCD_ILI9341_ Parameter (0x00);   
+LCD_ILI9341_ Parameter (0x16); //   (0x1B); 
+ 
+LCD_ILI9341_CMD(0xB6);    // Display Function Control 
+LCD_ILI9341_ Parameter (0x0A); 
+LCD_ILI9341_ Parameter (0xA2); 
+
+LCD_ILI9341_CMD(0xF6);    
+LCD_ILI9341_ Parameter (0x01); 
+LCD_ILI9341_ Parameter (0x30); 
+ 
+LCD_ILI9341_CMD(0xF2);    // 3Gamma Function Disable 
+LCD_ILI9341_ Parameter (0x00); 
+ 
+LCD_ILI9341_CMD(0x26);    //Gamma curve selected 
+LCD_ILI9341_ Parameter (0x01); 
+ 
+LCD_ILI9341_CMD(0xE0);    //Set Gamma 
+LCD_ILI9341_ Parameter (0x0F); 
+LCD_ILI9341_ Parameter (0x24); 
+LCD_ILI9341_ Parameter (0x1F); 
+LCD_ILI9341_ Parameter (0x0B); 
+LCD_ILI9341_ Parameter (0x0F); 
+LCD_ILI9341_ Parameter (0x05); 
+LCD_ILI9341_ Parameter (0x4A); 
+LCD_ILI9341_ Parameter (0X96); 
+LCD_ILI9341_ Parameter (0x39); 
+LCD_ILI9341_ Parameter (0x07); 
+LCD_ILI9341_ Parameter (0x11); 
+LCD_ILI9341_ Parameter (0x03); 
+LCD_ILI9341_ Parameter (0x11); 
+LCD_ILI9341_ Parameter (0x0D); 
+LCD_ILI9341_ Parameter (0x04); 
+ 
+LCD_ILI9341_CMD(0XE1);    //Set Gamma 
+LCD_ILI9341_ Parameter (0x00); 
+LCD_ILI9341_ Parameter (0x1B); 
+LCD_ILI9341_ Parameter (0x20); 
+LCD_ILI9341_ Parameter (0x04); 
+LCD_ILI9341_ Parameter (0x10); 
+LCD_ILI9341_ Parameter (0x02); 
+LCD_ILI9341_ Parameter (0x35); 
+LCD_ILI9341_ Parameter (0x23); 
+LCD_ILI9341_ Parameter (0x46); 
+LCD_ILI9341_ Parameter (0x04); 
+LCD_ILI9341_ Parameter (0x0E); 
+LCD_ILI9341_ Parameter (0x0C); 
+LCD_ILI9341_ Parameter (0x2E); 
+LCD_ILI9341_ Parameter (0x32); 
+LCD_ILI9341_ Parameter (0x05); 
+ 
+LCD_ILI9341_CMD(0x11);    //Exit Sleep 
+Delayms(120); 
+LCD_ILI9341_CMD(0x29);    //Display on 
+} 
+ 
+
+
+
+void addr(void)//窗口地址
+{
+
+  LCD_ILI9341_CMD(0x2a);
+  LCD_ILI9341_ Parameter(0x00);
+  LCD_ILI9341_ Parameter(0x00);
+  LCD_ILI9341_ Parameter(0x00);
+  LCD_ILI9341_ Parameter(0xef);
+
+  LCD_ILI9341_CMD(0x2b);
+  LCD_ILI9341_ Parameter(0x00);
+  LCD_ILI9341_ Parameter(0x00);
+  LCD_ILI9341_ Parameter(0x01);
+  LCD_ILI9341_ Parameter(0x3f);
+   
+  WriteCommand(0x29);
+  WriteCommand(0x2c);
+
+}
+
+
+
+
+      void  Enter_ILI9341()  // 休眠代碼：
+      {
+            LCD_ILI9341_CMD(0x28);
+            Delayms(20);
+            LCD_ILI9341_CMD(0x10);
+      }
+
+      void  Exit_ILI9341()  //退出休眠
+      {
+            LCD_ILI9341_CMD(0x11);
+            Delayms(120);
+            LCD_ILI9341_CMD(0x29);
+      }
+
+// 读ID4  
+
+// 寄存器 D3h  
+// p1= 0xff; //空  第一个值
+// p2= 0xff; //空
+// p3= 0x93; //ID
+// p4= 0x41; //
+
