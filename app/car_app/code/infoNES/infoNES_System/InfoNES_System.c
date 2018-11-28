@@ -460,7 +460,7 @@ void InfoNES_MessageBox( char *pszMsg ,...)
 }
 
 
-extern const unsigned char ddl_nes[];
+extern const unsigned char _943_nes[];
 
 extern const unsigned char _acContra[];
 extern int make_zoom_tab();
@@ -477,20 +477,17 @@ void infones_task(void *p_arg)
 	screen_width = SCREEN_WIDTH;
 	lcd_width    = LCD_WIDTH;
 	lcd_height   = LCD_HEIGHT;
-    disp_buf_init(g_dbuf,3,lcd_width,lcd_height,0x008080);
+    //disp_buf_init(g_dbuf,3,lcd_width,lcd_height,0x008080);
 
     make_zoom_tab();
-	if( 0 !=InfoNES_Load((const char *)_acContra))
-	{
-		while(520){}
-	}else
+	if( 0 == InfoNES_Load((const char *)_943_nes))
 	{
       InfoNES_Init();
 	}
 
     while(1)
     {
-                    /*-------------------------------------------------------------------*/
+        /*-------------------------------------------------------------------*/
         /*  To the menu screen                                               */
         /*-------------------------------------------------------------------*/
         if ( InfoNES_Menu() == -1 )
@@ -501,48 +498,48 @@ void infones_task(void *p_arg)
         /*-------------------------------------------------------------------*/
         InfoNES_Cycle();
 
-//    	msg = get_msg();
-//        if(msg  > (u32)0x2000000)
-//        {
-//            msg_d = msg ;
-//            msg = msg_d->type ;
-//        }
-//
-//
-//        switch(msg)
-//        {
-//
-//            case MSG_MODE_SW:
-//                break;
-//
-//            case MSG_DEVICECHANGE:
-//                break;
-//
-//
-//            case MSG_USB_FLAG:
-//                break;
-//
-//            case MSG_MSD_RUN:
-//                break;
-//            case MSG_ENC_OPEN:
-//                break;
-//
-//            case MSG_ENC_CLOSE:
-//                break;
-//
-//            case MSG_ENC_START:
-//                break;
-//
-//            case MSG_ENC_STOP:
-//                break;
-//
-//            case MSG_KEY_NEXT:
-//            	break;
-//            case MSG_KEY_PREV:
-//            	break;
-//            case MSG_KEY_OK:
-//            	break;
-//        }
+    	msg = get_msg();
+        if(msg  > (u32)0x2000000)
+        {
+            msg_d = msg ;
+            msg = msg_d->type ;
+        }
+
+
+        switch(msg)
+        {
+
+            case MSG_MODE_SW:
+                break;
+
+            case MSG_DEVICECHANGE:
+                break;
+
+
+            case MSG_USB_FLAG:
+                break;
+
+            case MSG_MSD_RUN:
+                break;
+            case MSG_ENC_OPEN:
+                break;
+
+            case MSG_ENC_CLOSE:
+                break;
+
+            case MSG_ENC_START:
+                break;
+
+            case MSG_ENC_STOP:
+                break;
+
+            case MSG_KEY_NEXT:
+            	break;
+            case MSG_KEY_PREV:
+            	break;
+            case MSG_KEY_OK:
+            	break;
+        }
 
     }
     // Completion treatment

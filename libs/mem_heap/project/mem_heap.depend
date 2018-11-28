@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1476359429 source:e:\work\nes\ac5203_yj302_a20_st7793\libs\mem_heap\src\mem_heap.c
+	"mem_heap.h"
+	"printf.h"
+	"os_api.h"
+
+1458542756 e:\work\nes\ac5203_yj302_a20_st7793\libs\mem_heap\src\mem_heap.h
+
+1435626428 e:\work\nes\ac5203_yj302_a20_st7793\libs\includes\printf.h
+	<stdarg.h>
+
+1435626427 e:\work\nes\ac5203_yj302_a20_st7793\libs\includes\os\inc\os_api.h
+	"cpu.h"
+	"typedef.h"
+	"os_cfg.h"
+	"os_cpu.h"
+	"msg_pool.h"
+
+1435626427 e:\work\nes\ac5203_yj302_a20_st7793\libs\includes\os\inc\cpu.h
+	"dv12.h"
+
+1441262550 e:\work\nes\ac5203_yj302_a20_st7793\libs\includes\dv12.h
+
+1442818925 e:\work\nes\ac5203_yj302_a20_st7793\libs\includes\typedef.h
+
+1435626427 e:\work\nes\ac5203_yj302_a20_st7793\libs\includes\os\inc\os_cfg.h
+	"cpu.h"
+
+1435626427 e:\work\nes\ac5203_yj302_a20_st7793\libs\includes\os\inc\os_cpu.h
+	"cpu.h"
+
+1435626427 e:\work\nes\ac5203_yj302_a20_st7793\libs\includes\os\inc\msg_pool.h
+	"typedef.h"
+

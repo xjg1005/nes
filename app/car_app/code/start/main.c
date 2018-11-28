@@ -751,7 +751,7 @@ void start_task(void *p_arg)
 
     expire_time = 0;
     APP_SD_IO_HIGH();
-    delay(200);
+//    delay(200);
     //while(APP_SD_IO_READ() && (expire_time < 20)) //20160115 san
     while((expire_time < 20)) //5203 JOHNSON 20160506
     {

@@ -1880,7 +1880,7 @@
 	"ioctl.h"
 	"device_drive.h"
 
-1543286798 e:\work\nes\ac5203_yj302_a20_st7793\app\car_app\code\include\app_cfg.h
+1543370844 e:\work\nes\ac5203_yj302_a20_st7793\app\car_app\code\include\app_cfg.h
 	"dsc.h"
 	"lane_dect.h"
 
@@ -2250,7 +2250,7 @@
 	"typedef.h"
 	"ui_con.h"
 
-1543289861 source:e:\work\nes\ac5203_yj302_a20_st7793\app\car_app\code\disp_ctrl\ui_task.c
+1543385273 source:e:\work\nes\ac5203_yj302_a20_st7793\app\car_app\code\disp_ctrl\ui_task.c
 	"mode_switch.h"
 	"dev_ctrl.h"
 	"drv_manage.h"
@@ -2513,7 +2513,7 @@
 	"dv12.h"
 	"imb_module.h"
 
-1542875108 source:e:\work\nes\ac5203_yj302_a20_st7793\app\car_app\code\tft_panel\ili9325.c
+1543372127 source:e:\work\nes\ac5203_yj302_a20_st7793\app\car_app\code\tft_panel\ili9325.c
 	"typedef.h"
 	"pap.h"
 	"tft.h"
@@ -2596,7 +2596,7 @@
 1442818947 e:\work\nes\ac5203_yj302_a20_st7793\app\car_app\code\upgrade\upgrade.h
 	"mango_dev_sd.h"
 
-1543308079 source:e:\work\nes\ac5203_yj302_a20_st7793\app\car_app\code\start\main.c
+1543385292 source:e:\work\nes\ac5203_yj302_a20_st7793\app\car_app\code\start\main.c
 	"typedef.h"
 	"hwi.h"
 	"os_api.h"
@@ -2682,14 +2682,14 @@
 	"_ansi.h"
 	<sys/reent.h>
 
-1543219096 source:e:\work\nes\ac5203_yj302_a20_st7793\app\car_app\code\infones\infones_src\src\infones.c
+1543382698 source:e:\work\nes\ac5203_yj302_a20_st7793\app\car_app\code\infones\infones_src\src\infones.c
 	"InfoNES.h"
 	"InfoNES_System.h"
 	"InfoNES_Mapper.h"
 	"InfoNES_pAPU.h"
 	"K6502.h"
 
-1543305083 e:\work\nes\ac5203_yj302_a20_st7793\app\car_app\code\infones\infones_src\inc\infones.h
+1543374676 e:\work\nes\ac5203_yj302_a20_st7793\app\car_app\code\infones\infones_src\inc\infones.h
 	"InfoNES_Types.h"
 
 1542544891 e:\work\nes\ac5203_yj302_a20_st7793\app\car_app\code\infones\infones_src\inc\infones_types.h
@@ -3128,7 +3128,7 @@
 	"InfoNES_System.h"
 	"K6502_rw.h"
 
-1543307011 source:e:\work\nes\ac5203_yj302_a20_st7793\app\car_app\code\infones\infones_system\infones_system.c
+1543383522 source:e:\work\nes\ac5203_yj302_a20_st7793\app\car_app\code\infones\infones_system\infones_system.c
 	"InfoNES_System.h"
 	"InfoNES.h"
 	"InfoNES_pAPU.h"
@@ -3161,4 +3161,8 @@
 1412853838 c:\jl\dv12\include\machine\malloc.h
 
 1543285932 source:e:\work\nes\ac5203_yj302_a20_st7793\app\car_app\code\infones\nes_game\ddl.c
+
+1543376010 source:e:\work\nes\ac5203_yj302_a20_st7793\app\car_app\code\infones\nes_game\mla.c
+
+1543384419 source:e:\work\nes\ac5203_yj302_a20_st7793\app\car_app\code\infones\nes_game\fj.c
 
