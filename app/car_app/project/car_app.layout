@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="..\code\FileSelecter\FileSelecter.c" open="0" top="0" tabpos="17">
-		<Cursor position="11699" topLine="381" />
+	<File name="..\code\FileSelecter\FileSelecter.c" open="1" top="0" tabpos="16">
+		<Cursor position="0" topLine="0" />
 	</File>
 	<File name="..\code\FileSelecter\FileSelecter.h" open="0" top="0" tabpos="55">
 		<Cursor position="2023" topLine="61" />
@@ -40,8 +40,8 @@
 	<File name="..\code\Peripherals\clock.c" open="0" top="0" tabpos="29">
 		<Cursor position="23034" topLine="995" />
 	</File>
-	<File name="..\code\Peripherals\timer.c" open="0" top="0" tabpos="12">
-		<Cursor position="484" topLine="0" />
+	<File name="..\code\Peripherals\timer.c" open="1" top="0" tabpos="4">
+		<Cursor position="2275" topLine="114" />
 	</File>
 	<File name="..\code\Peripherals\uart.c" open="0" top="0" tabpos="18">
 		<Cursor position="325" topLine="12" />
@@ -55,8 +55,8 @@
 	<File name="..\code\StorDev\dev_ctrl.c" open="0" top="0" tabpos="7">
 		<Cursor position="328" topLine="13" />
 	</File>
-	<File name="..\code\StorDev\dev_ctrl.h" open="0" top="0" tabpos="51">
-		<Cursor position="506" topLine="8" />
+	<File name="..\code\StorDev\dev_ctrl.h" open="1" top="0" tabpos="15">
+		<Cursor position="0" topLine="0" />
 	</File>
 	<File name="..\code\common\audio_api.c" open="0" top="0" tabpos="40">
 		<Cursor position="101085" topLine="1249" />
@@ -70,8 +70,8 @@
 	<File name="..\code\disp_ctrl\UI.H" open="0" top="0" tabpos="5">
 		<Cursor position="546" topLine="11" />
 	</File>
-	<File name="..\code\disp_ctrl\lcd.c" open="0" top="0" tabpos="6">
-		<Cursor position="0" topLine="0" />
+	<File name="..\code\disp_ctrl\lcd.c" open="1" top="0" tabpos="14">
+		<Cursor position="5851" topLine="253" />
 	</File>
 	<File name="..\code\disp_ctrl\lcd.h" open="0" top="0" tabpos="4">
 		<Cursor position="790" topLine="0" />
@@ -85,26 +85,32 @@
 	<File name="..\code\disp_ctrl\my_ui1.c" open="0" top="0" tabpos="7">
 		<Cursor position="30479" topLine="851" />
 	</File>
-	<File name="..\code\disp_ctrl\ui_task.c" open="0" top="0" tabpos="5">
-		<Cursor position="23527" topLine="926" />
+	<File name="..\code\disp_ctrl\ui_task.c" open="1" top="0" tabpos="6">
+		<Cursor position="30938" topLine="1173" />
 	</File>
 	<File name="..\code\disp_ctrl\ui_task.h" open="0" top="0" tabpos="24">
 		<Cursor position="341" topLine="0" />
 	</File>
-	<File name="..\code\include\app_cfg.h" open="0" top="0" tabpos="3">
-		<Cursor position="0" topLine="0" />
+	<File name="..\code\include\app_cfg.h" open="1" top="0" tabpos="8">
+		<Cursor position="4936" topLine="134" />
 	</File>
-	<File name="..\code\infoNES\NES_GAME\Contra.c" open="0" top="0" tabpos="0">
-		<Cursor position="219" topLine="0" />
+	<File name="..\code\infoNES\NES_GAME\ddl.c" open="1" top="0" tabpos="19">
+		<Cursor position="148" topLine="0" />
 	</File>
-	<File name="..\code\infoNES\NES_GAME\ddl.c" open="0" top="0" tabpos="0">
-		<Cursor position="121" topLine="0" />
+	<File name="..\code\infoNES\NES_GAME\fj.c" open="1" top="0" tabpos="13">
+		<Cursor position="151" topLine="0" />
 	</File>
-	<File name="..\code\infoNES\infoNES_SRC\inc\InfoNES.h" open="0" top="0" tabpos="0">
-		<Cursor position="4658" topLine="165" />
+	<File name="..\code\infoNES\NES_GAME\gef.c" open="1" top="0" tabpos="18">
+		<Cursor position="147" topLine="0" />
 	</File>
-	<File name="..\code\infoNES\infoNES_SRC\inc\InfoNES_System.h" open="0" top="0" tabpos="0">
-		<Cursor position="1055" topLine="11" />
+	<File name="..\code\infoNES\infoNES_PORT\nes_port.c" open="1" top="0" tabpos="11">
+		<Cursor position="109" topLine="0" />
+	</File>
+	<File name="..\code\infoNES\infoNES_SRC\inc\InfoNES.h" open="1" top="0" tabpos="12">
+		<Cursor position="1253" topLine="23" />
+	</File>
+	<File name="..\code\infoNES\infoNES_SRC\inc\InfoNES_System.h" open="1" top="0" tabpos="5">
+		<Cursor position="1552" topLine="26" />
 	</File>
 	<File name="..\code\infoNES\infoNES_SRC\inc\InfoNES_Types.h" open="0" top="0" tabpos="0">
 		<Cursor position="528" topLine="0" />
@@ -115,11 +121,11 @@
 	<File name="..\code\infoNES\infoNES_SRC\inc\K6502_rw.h" open="0" top="0" tabpos="0">
 		<Cursor position="10844" topLine="344" />
 	</File>
-	<File name="..\code\infoNES\infoNES_SRC\src\InfoNES.c" open="1" top="1" tabpos="3">
-		<Cursor position="26442" topLine="863" />
+	<File name="..\code\infoNES\infoNES_SRC\src\InfoNES.c" open="1" top="0" tabpos="3">
+		<Cursor position="8719" topLine="316" />
 	</File>
-	<File name="..\code\infoNES\infoNES_System\InfoNES_System.c" open="1" top="0" tabpos="2">
-		<Cursor position="15984" topLine="489" />
+	<File name="..\code\infoNES\infoNES_System\InfoNES_System.c" open="1" top="1" tabpos="2">
+		<Cursor position="15382" topLine="472" />
 	</File>
 	<File name="..\code\key\adc_scan.c" open="0" top="0" tabpos="9">
 		<Cursor position="1877" topLine="63" />
@@ -161,7 +167,7 @@
 		<Cursor position="0" topLine="0" />
 	</File>
 	<File name="..\code\start\main.c" open="1" top="0" tabpos="1">
-		<Cursor position="13682" topLine="681" />
+		<Cursor position="17832" topLine="744" />
 	</File>
 	<File name="..\code\start\mode_switch.c" open="0" top="0" tabpos="8">
 		<Cursor position="24511" topLine="719" />
@@ -190,8 +196,8 @@
 	<File name="..\code\tft_panel\ILI9163.c" open="0" top="0" tabpos="46">
 		<Cursor position="1059" topLine="62" />
 	</File>
-	<File name="..\code\tft_panel\ILI9325.c" open="0" top="0" tabpos="1">
-		<Cursor position="35335" topLine="1013" />
+	<File name="..\code\tft_panel\ILI9325.c" open="1" top="0" tabpos="9">
+		<Cursor position="36545" topLine="1064" />
 	</File>
 	<File name="..\code\tft_panel\LCD_RM68116.c" open="0" top="0" tabpos="48">
 		<Cursor position="0" topLine="0" />
@@ -208,8 +214,8 @@
 	<File name="..\code\tft_panel\T15P00.c" open="0" top="0" tabpos="59">
 		<Cursor position="12531" topLine="524" />
 	</File>
-	<File name="..\code\tft_panel\avout.c" open="0" top="0" tabpos="54">
-		<Cursor position="761" topLine="10" />
+	<File name="..\code\tft_panel\avout.c" open="1" top="0" tabpos="7">
+		<Cursor position="4773" topLine="225" />
 	</File>
 	<File name="..\code\tft_panel\disp_43inch.c" open="0" top="0" tabpos="53">
 		<Cursor position="1590" topLine="8" />
@@ -232,8 +238,8 @@
 	<File name="..\code\tft_panel\tft.h" open="0" top="0" tabpos="10">
 		<Cursor position="12746" topLine="320" />
 	</File>
-	<File name="..\code\upgrade\upgrade.c" open="0" top="0" tabpos="5">
-		<Cursor position="13639" topLine="481" />
+	<File name="..\code\upgrade\upgrade.c" open="1" top="0" tabpos="17">
+		<Cursor position="13560" topLine="483" />
 	</File>
 	<File name="isd_tools.cfg" open="0" top="0" tabpos="30">
 		<Cursor position="3410" topLine="92" />

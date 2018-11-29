@@ -707,35 +707,35 @@ void start_task(void *p_arg)
 #endif
 
 
-//    err = os_task_create(enc_app_task,0,ENC_TASE_PRIO, 0x2000,40,ENC_TASK_N) ;
-//    if(err){
-//        puts("\ncreat enc task err\n");
-//        while(1);
-//    }
-
-//    err = os_task_create(dec_app_task,0,DEC_TASE_PRIO, 0x2000,40,DEC_TASK_N) ;
-//    if(err){
-//        puts("\ncreat dec task err\n");
-//        while(1);
-//    }
-
-//    err = os_task_create(usb_app_task,0,USB_TASE_PRIO, 0x2000,40,USB_TASK_N) ;
-//    if(err){
-//        puts("\ncreat usb task err\n");
-//        while(1);
-//    }
-
-//    err = os_task_create(mode_sched,0,MODE_SW_PRIO, 0x2000,40,MODE_SW_N) ;
-//    if(err){
-//        puts("\ncreat      mode task err\n");
-//        while(1);
-//    }
-
-//	err = os_task_create(ui_disp_task,0,MODE_DISP_PRIO, 0x2000,40,UI_DISP_N) ;
-//    if(err){
-//        puts("\ncreat ui disp task err\n");
-//        while(1);
-//    }
+    err = os_task_create(enc_app_task,0,ENC_TASE_PRIO, 0x2000,40,ENC_TASK_N) ;
+    if(err){
+        puts("\ncreat enc task err\n");
+        while(1);
+    }
+//
+    err = os_task_create(dec_app_task,0,DEC_TASE_PRIO, 0x2000,40,DEC_TASK_N) ;
+    if(err){
+        puts("\ncreat dec task err\n");
+        while(1);
+    }
+//
+    err = os_task_create(usb_app_task,0,USB_TASE_PRIO, 0x2000,40,USB_TASK_N) ;
+    if(err){
+        puts("\ncreat usb task err\n");
+        while(1);
+    }
+//
+    err = os_task_create(mode_sched,0,MODE_SW_PRIO, 0x2000,40,MODE_SW_N) ;
+    if(err){
+        puts("\ncreat      mode task err\n");
+        while(1);
+    }
+//
+	err = os_task_create(ui_disp_task,0,MODE_DISP_PRIO, 0x2000,40,UI_DISP_N) ;
+    if(err){
+        puts("\ncreat ui disp task err\n");
+        while(1);
+    }
 
     err = os_task_create(infones_task,0,INFONES_PRIO, 0x2000,40,INFONES_TASK_N) ;
     if(err){

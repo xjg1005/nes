@@ -215,10 +215,13 @@
 		</Unit>
 		<Unit filename="..\code\disp_ctrl\ui_task.h" />
 		<Unit filename="..\code\include\app_cfg.h" />
-		<Unit filename="..\code\infoNES\NES_GAME\Contra.c">
+		<Unit filename="..\code\infoNES\NES_GAME\ddl.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="..\code\infoNES\NES_GAME\ddl.c">
+		<Unit filename="..\code\infoNES\NES_GAME\fj.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="..\code\infoNES\NES_GAME\gef.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="..\code\infoNES\infoNES_PORT\nes_port.c">

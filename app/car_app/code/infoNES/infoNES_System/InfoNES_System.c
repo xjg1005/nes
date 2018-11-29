@@ -461,7 +461,7 @@ void InfoNES_MessageBox( char *pszMsg ,...)
 
 
 extern const unsigned char _943_nes[];
-
+extern const unsigned char ddl_nes;
 extern const unsigned char _acContra[];
 extern int make_zoom_tab();
 extern void disp_buf_init(u8 *buf,u8 num,u16 width,u16 height,u32 color);
@@ -480,9 +480,11 @@ void infones_task(void *p_arg)
     //disp_buf_init(g_dbuf,3,lcd_width,lcd_height,0x008080);
 
     make_zoom_tab();
-	if( 0 == InfoNES_Load((const char *)_943_nes))
+	if( 0 != InfoNES_Load((const char *)_943_nes))
 	{
-      InfoNES_Init();
+      while(1);
+	}else{
+        InfoNES_Init();
 	}
 
     while(1)

@@ -105,7 +105,7 @@ typedef unsigned long u32_t,mem_ptr_t;
  * a lot of data that needs to be copied, this should be set high.
  */
 
-#define MEM_HEAP_SIZE                        (2*1024*1024)//(900*1024 )//
+#define MEM_HEAP_SIZE                        (5*1024*1024)//(900*1024 )//
 
 
 
